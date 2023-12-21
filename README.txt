@@ -17,6 +17,6 @@ MULTI/FORMAT/CODEC I/O
 
 References
 
-  [MULF] https:/multiformats.io/
-  [MUCT] https:/github.com/multiformats/multicodec/blob/master/table.csv
+  [MULF] https://multiformats.io/
+  [MUCT] https://github.com/multiformats/multicodec/blob/master/table.csv
 
