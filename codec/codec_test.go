@@ -1,5 +1,5 @@
 /*
- * MULTI/FORMAT/CODEC I/O
+ * MULTI/CODEC I/O
  * Copyright 2023 John Douglas Pritchard, Syntelos
  *
  *
@@ -8,13 +8,22 @@
  * https://github.com/multiformats/multicodec/blob/master/table.csv
  * https://multiformats.io/
  */
-package mult
+package codec
 
 import (
 	"crypto/elliptic"
 	"crypto/rand"
+	"fmt"
 	"testing"
 )
+/*
+ */
+func TestTable(t *testing.T){
+	var cc uint64 = IdentifierKeyP256PUB.Code()
+	var id string = HeaderKeyP256PUB.String()
+
+	fmt.Printf("%s\t0x%08X\n",id,cc)
+}
 /*
  */
 func TestObject(t *testing.T){
